@@ -144,3 +144,11 @@ The pipe is what wires ls and tail together. And this we can wire it back to a f
 ```bash
 $ ls -l / | tail -n1 > ls.txt
 ```
+
+# Globbing
+Finding a particular file extension can be done as, 
+
+```bash
+ls *.sh
+```
+This finds all files with `.sh` extension. 
