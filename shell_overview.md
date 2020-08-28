@@ -152,3 +152,32 @@ Finding a particular file extension can be done as,
 ls *.sh
 ```
 This finds all files with `.sh` extension. 
+
+## Some more shortcuts 
+
+Say you want to edit a list of files, so instead of typing each one we can do the following. 
+
+This will `touch` all the files in `foo` from a to h
+```bash
+touch {foo,bar}/{a..h}
+```
+
+```bash
+$ ls foo/
+
+a  b  c  d  e  f  g  h
+```
+
+Now we can make some changes in the two directories and look for differences. 
+
+
+ ```bash
+$ touch foo/x bar/y
+$ diff <(ls foo/) <(ls bar/)
+
+11c11
+< x
+---
+> y
+
+```
