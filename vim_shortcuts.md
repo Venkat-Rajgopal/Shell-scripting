@@ -8,11 +8,11 @@ Vim has multiple operating modes, keeping in mind the different ideas like readi
 
 Modes | Shortcuts 
 --- | ---
-- **Normal**: for moving around a file and making edits |
-- **Insert**: for inserting text | `i`
-- **Replace**: for replacing text | `R`
-- **Visual** (plain, line, or block): for selecting blocks of text | `v`
-- **Command-line**: for running a command | `:`
+**Normal**: for moving around a file and making edits | By default in Normal mode
+**Insert**: for inserting text | `i`
+**Replace**: for replacing text | `R`
+**Visual** (plain, line, or block): for selecting blocks of text | `v`
+**Command-line**: for running a command | `:`
 
 You change modes by pressing `<ESC>` to switch from any mode back to Normal mode. 
 
