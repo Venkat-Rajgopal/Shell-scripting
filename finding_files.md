@@ -21,6 +21,11 @@ Find all the files ending with .tmp.
 find . -name '*.tmp' -exec rm {} \;
 ```
 
+Find files ending with `csv`
+```bash
+$ find . -name '*.csv'
+```
+
 # Grep
 Grep is also another common technique to find in files. 
 
