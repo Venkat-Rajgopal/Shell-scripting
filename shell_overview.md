@@ -145,6 +145,12 @@ The pipe is what wires ls and tail together. And this we can wire it back to a f
 $ ls -l / | tail -n1 > ls.txt
 ```
 
+- Getting drive size is done through `du`. This we can sort the results using the  pipe `|` operator. 
+
+```bash
+du -h --max-depth=1 /path/to/folder  | sort -h
+```
+
 # Globbing
 Finding a particular file extension can be done as, 
 
